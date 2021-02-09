@@ -16,16 +16,28 @@ export default function ContactUs() {
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="name" name="name" />
-      <label>Email</label>
-      <input type="email" name="email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+      <div className="contact-container">
+          <form onSubmit={sendEmail}>
+        <div className='contact-item'>
+            <div><label>Name</label> </div>
+            <div><input type="name" name="name"/></div>
+        </div>
+        <div className='contact-item'>
+            <div><label>Email</label></div>
+            <div><input type="email" name="email"/></div>
+        </div>
+        <div className='contact-item'>
+            <div><label>Message</label></div>
+            <div><textarea name="message"/></div>
+        </div>
+
+        <input type="submit" value="Send" />
+
+        </form>
+
+      </div>
+    
   );
 
-  
+
 }

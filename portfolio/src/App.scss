@@ -119,3 +119,14 @@ header {
   height: 32px;
   background: white;
 }
+
+.contact-container {
+  padding: 20px;
+  width: 100%;
+  border-color: coral;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+}

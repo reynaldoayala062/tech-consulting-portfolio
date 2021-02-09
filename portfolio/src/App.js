@@ -145,14 +145,6 @@ export default function App() {
             bgColor='#571ec1'
             modelPath='/armchairGray.gltf'
             position={-500}>
-            <span>One decision</span>
-            <span>away</span>
-          </HTMLContent>
-          <HTMLContent
-            domContent={domContent}
-            bgColor='green'
-            modelPath='/instagram.gltf'
-            position={-750}>
             <Contact/>
           </HTMLContent>
         </Suspense>
