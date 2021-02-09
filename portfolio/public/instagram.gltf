@@ -1,0 +1,240 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 22195,
+      "max": [-644.89990234375, 7.8750319480895996, -444.94943237304688],
+      "min": [-855.10009765625, -7.8750319480895996, -655.050537109375],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 266340,
+      "componentType": 5126,
+      "count": 22195,
+      "max": [0.99999922513961792, 1, 0.99998265504837036],
+      "min": [-0.99999964237213135, -1, -0.99998563528060913],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 22195,
+      "max": [1, 1],
+      "min": [0, 0.00047100000665523112],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 87444,
+      "max": [22194],
+      "min": [0],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 532680,
+      "componentType": 5126,
+      "count": 2397,
+      "max": [-792.49774169921875, 7.8750319480895996, -485.54962158203125],
+      "min": [-813.69989013671875, -7.8750319480895996, -506.74969482421875],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 561444,
+      "componentType": 5126,
+      "count": 2397,
+      "max": [0.99892854690551758, 1, 0.99943166971206665],
+      "min": [-0.99404209852218628, -1, -0.99724489450454712],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 177560,
+      "componentType": 5126,
+      "count": 2397,
+      "max": [0.80304402112960815, 0.99895501136779785],
+      "min": [0.0010450000409036875, 0.70599299669265747],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 349776,
+      "componentType": 5125,
+      "count": 9498,
+      "max": [2396],
+      "min": [0],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 590208,
+      "componentType": 5126,
+      "count": 11307,
+      "max": [-701.271728515625, 7.8750319480895996, -501.2987060546875],
+      "min": [-798.75872802734375, -7.8750319480895996, -598.763671875],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 725892,
+      "componentType": 5126,
+      "count": 11307,
+      "max": [0.99999386072158813, 1, 1],
+      "min": [-0.9999958872795105, -1, -0.99999326467514038],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 196736,
+      "componentType": 5126,
+      "count": 11307,
+      "max": [0.73196297883987427, 0.99895501136779785],
+      "min": [0.0001829999964684248, 0.26824900507926941],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 387768,
+      "componentType": 5125,
+      "count": 44922,
+      "max": [11306],
+      "min": [0],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "xAxIxRx (https://sketchfab.com/xaxixrx)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/instagram-3d-logo-17fdcc3feecc4205937a10ba506cf623",
+      "title": "Instagram 3D Logo"
+    },
+    "generator": "Sketchfab-8.60.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 567456,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 287192,
+      "byteOffset": 567456,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 861576,
+      "byteOffset": 854648,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1716224,
+      "uri": "instagram.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [0, 0, 0],
+      "name": "clean_metal_clean_gold",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0, 0, 0, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8983603123885211
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [1],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [-0.70710678118654746, -0, -0, 0.70710678118654757]
+    },
+    {
+      "children": [2],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [3, 4, 5],
+      "name": "instagram logo.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    },
+    {
+      "mesh": 2,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [0]
+    }
+  ]
+}

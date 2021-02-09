@@ -16,6 +16,8 @@ import { a, useTransition } from "@react-spring/web";
 //Intersection Observer
 import { useInView } from "react-intersection-observer";
 
+import Contact from './components/contactForm'
+
 function Model({ url }) {
   const gltf = useGLTFLoader(url, true);
   return <primitive object={gltf.scene} dispose={null} />;
@@ -128,7 +130,7 @@ export default function App() {
             modelPath='/village.gltf'
             position={0}>
             <span>Where the future</span>
-            <span>meets </span>
+            <span>meets you</span>
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
@@ -145,6 +147,13 @@ export default function App() {
             position={-500}>
             <span>One decision</span>
             <span>away</span>
+          </HTMLContent>
+          <HTMLContent
+            domContent={domContent}
+            bgColor='green'
+            modelPath='/instagram.gltf'
+            position={-750}>
+            <Contact/>
           </HTMLContent>
         </Suspense>
       </Canvas>
