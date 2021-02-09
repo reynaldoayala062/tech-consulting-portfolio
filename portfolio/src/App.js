@@ -142,7 +142,7 @@ export default function App() {
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor='#571ec1'
+            bgColor='#4ddbff'
             modelPath='/armchairGray.gltf'
             position={-500}>
             <Contact/>

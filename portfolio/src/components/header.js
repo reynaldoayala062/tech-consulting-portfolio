@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className='header-inner'>
-        <div className='logo'>Oval</div>
+        <div className='logo'>Sugar Land Web Designer</div>
         <nav>
           <ul className='right-nav'>
             <li className='btn'>

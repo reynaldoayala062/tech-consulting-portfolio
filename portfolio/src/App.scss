@@ -123,10 +123,18 @@ header {
 .contact-container {
   padding: 20px;
   width: 100%;
-  border-color: coral;
+}
+
+.contact-container:hover {
+  backdrop-filter: blur(8px);
 }
 
 .contact-item {
   display: flex;
   justify-content: space-between;
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 80px;
 }
