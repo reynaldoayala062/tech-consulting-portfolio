@@ -118,7 +118,7 @@ export default function App() {
         <Suspense fallback={null}>
         <HTMLContent
             domContent={domContent}
-            bgColor='#ffff66'
+            bgColor='white'
             modelPath='/city.gltf'
             position={250}>
             <span>Meet the new </span>
@@ -126,7 +126,7 @@ export default function App() {
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor='#ffff66'
+            bgColor='white'
             modelPath='/village.gltf'
             position={0}>
             <span>Where the future</span>
