@@ -4,11 +4,11 @@ export default function Header() {
   return (
     <header>
       <div className='header-inner'>
-        <div className='logo'>Sugar Land Web Designer</div>
+        <div className='logo'>Woodlands Web Designer</div>
         <nav>
           <ul className='right-nav'>
             <li className='btn'>
-              <a href='/'>Chat now</a>
+              <a href="tel:+18326188084">Chat</a>
             </li>
           </ul>
         </nav>
