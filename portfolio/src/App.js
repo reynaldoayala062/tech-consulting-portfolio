@@ -118,15 +118,15 @@ export default function App() {
         <Suspense fallback={null}>
         <HTMLContent
             domContent={domContent}
-            bgColor='white'
-            modelPath='/city.gltf'
+            bgColor='#659DBD'
+            modelPath='/iPhone.gltf'
             position={250}>
             <span>Meet the new </span>
             <span>online</span>
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor='white'
+            bgColor='#DAAD86'
             modelPath='/village.gltf'
             position={0}>
             <span>Where the future</span>
@@ -134,17 +134,9 @@ export default function App() {
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor='#636567'
-            modelPath='/iPhone.gltf'
+            bgColor='#FBEEC1'
+            modelPath='/gray.gltf'
             position={-250}>
-            <span>You and the</span>
-            <span>world</span>
-          </HTMLContent>
-          <HTMLContent
-            domContent={domContent}
-            bgColor='#4ddbff'
-            modelPath='/armchairGray.gltf'
-            position={-500}>
             <Contact/>
           </HTMLContent>
         </Suspense>
