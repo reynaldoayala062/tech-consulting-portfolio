@@ -27,10 +27,6 @@ export default function ContactUs() {
                         <div><input type="name" name="name"/></div>
                     </div>
                     <div className='contact-item'>
-                        <div><label>Company Name</label></div>
-                        <div><input type="name" name="company-name"/></div>
-                    </div>
-                    <div className='contact-item'>
                         <div><label>Email</label></div>
                         <div><input type="email" name="email"/></div>
                     </div>
@@ -38,10 +34,10 @@ export default function ContactUs() {
                         <div><label>Phone</label></div>
                         <div><input type="phone" name="phone"/></div>
                     </div>
-                    {/* <div className='contact-item'>
+                    <div className='contact-item'>
                         <div><label>Message</label></div>
                         <div><textarea name="message"/></div>
-                    </div> */}
+                    </div>
                     <div className='button'>
                         <input type="submit" value="Send" className='button'/>
                     </div>

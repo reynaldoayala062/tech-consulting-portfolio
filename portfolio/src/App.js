@@ -126,12 +126,11 @@ export default function App() {
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor='#116466'
+            bgColor='#77A6F7'
             modelPath='/iPhone.gltf'
             position={0}>
-            <span>YOU = PLUG</span>
-            <span>CLIENT = OUTLET</span>
-            <span> PLUG = OUTLET </span>
+            <span>Connecting you to</span>
+            <span>the world</span>
           </HTMLContent>
           <HTMLContent
             domContent={domContent}

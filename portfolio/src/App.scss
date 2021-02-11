@@ -122,8 +122,8 @@ header {
 
 .contact-container {
   padding: 20px;
-  width: 90%;
-  height: 50%;
+  width: 80%;
+  height: 30%;
   margin: auto;
   text-align: center;
   background-color: #d1e8e2;
@@ -135,20 +135,17 @@ header {
   padding: 20px;
 }
 
-// .contact-container:hover {
-//   backdrop-filter: blur(8px);
-// }
-
 .contact-item {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   font-size: 20px;
   padding: 10px;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 35%;
 }
 
 input,
@@ -176,4 +173,7 @@ span {
   display: inline-block;
   font-size: 16px;
   border-radius: 50px;
+}
+
+a {
 }
