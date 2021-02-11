@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className='header-inner'>
-        <div className='logo'>Woodlands Web Designer</div>
+        <div className='logo'>WWD</div>
         <nav>
           <ul className='right-nav'>
             <li className='btn'>

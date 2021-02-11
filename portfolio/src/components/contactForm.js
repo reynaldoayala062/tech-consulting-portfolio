@@ -17,25 +17,36 @@ export default function ContactUs() {
 
   return (
       <div className="contact-container">
-          <div>
-              <h1>Free Consultation</h1>
-          </div>
-          <form onSubmit={sendEmail}>
-            <div className='contact-item'>
-                <div><label>Name</label> </div>
-                <div><input type="name" name="name"/></div>
+          <div className='wrapper'>
+                <div>
+                    <h1>How can we help</h1>
+                </div>
+                <form onSubmit={sendEmail}>
+                    <div className='contact-item'>
+                        <div><label>Name</label> </div>
+                        <div><input type="name" name="name"/></div>
+                    </div>
+                    <div className='contact-item'>
+                        <div><label>Company Name</label></div>
+                        <div><input type="name" name="company-name"/></div>
+                    </div>
+                    <div className='contact-item'>
+                        <div><label>Email</label></div>
+                        <div><input type="email" name="email"/></div>
+                    </div>
+                    <div className='contact-item'>
+                        <div><label>Phone</label></div>
+                        <div><input type="phone" name="phone"/></div>
+                    </div>
+                    {/* <div className='contact-item'>
+                        <div><label>Message</label></div>
+                        <div><textarea name="message"/></div>
+                    </div> */}
+                    <div className='button'>
+                        <input type="submit" value="Send" className='button'/>
+                    </div>
+                </form>
             </div>
-            <div className='contact-item'>
-                <div><label>Email</label></div>
-                <div><input type="email" name="email"/></div>
-            </div>
-            <div className='contact-item'>
-                <div><label>Message</label></div>
-                <div><textarea name="message"/></div>
-            </div>
-
-            <input type="submit" value="Send" />
-        </form>
       </div>
     
   );

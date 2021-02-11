@@ -66,7 +66,7 @@ const HTMLContent = ({
   return (
     <Section factor={1.5} offset={1}>
       <group position={[0, position, 0]}>
-        <mesh ref={ref} position={[0, -35, 10]}>
+        <mesh ref={ref} position={[0, -35, 0]}>
           <Model url={modelPath} />
         </mesh>
         <Html fullscreen portal={domContent}>
@@ -118,23 +118,24 @@ export default function App() {
         <Suspense fallback={null}>
         <HTMLContent
             domContent={domContent}
-            bgColor='#659DBD'
-            modelPath='/iPhone.gltf'
-            position={250}>
-            <span>Meet the new </span>
-            <span>online</span>
-          </HTMLContent>
-          <HTMLContent
-            domContent={domContent}
-            bgColor='#DAAD86'
+            bgColor='#D1E8E2'
             modelPath='/village.gltf'
-            position={0}>
-            <span>Where the future</span>
-            <span>meets you</span>
+            position={250}>
+            <span>Woodlands Web </span>
+            <span>Designer</span>
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor='#FBEEC1'
+            bgColor='#116466'
+            modelPath='/iPhone.gltf'
+            position={0}>
+            <span>YOU = PLUG</span>
+            <span>CLIENT = OUTLET</span>
+            <span> PLUG = OUTLET </span>
+          </HTMLContent>
+          <HTMLContent
+            domContent={domContent}
+            bgColor='#FFCB9A'
             modelPath='/gray.gltf'
             position={-250}>
             <Contact/>
