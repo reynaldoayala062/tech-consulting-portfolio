@@ -118,7 +118,7 @@ export default function App() {
         <Suspense fallback={null}>
         <HTMLContent
             domContent={domContent}
-            bgColor='#D1E8E2'
+            bgColor='#F3D250'
             modelPath='/village.gltf'
             position={250}>
             <span>Woodlands Web </span>

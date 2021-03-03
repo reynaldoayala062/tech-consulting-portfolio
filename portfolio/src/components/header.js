@@ -8,7 +8,7 @@ export default function Header() {
         <nav>
           <ul className='right-nav'>
             <li className='btn'>
-              <a href="tel:+18326188084">Chat</a>
+              <a href="tel:+18324092777">Chat</a>
             </li>
           </ul>
         </nav>
