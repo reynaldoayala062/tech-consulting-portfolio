@@ -126,7 +126,7 @@ header {
   height: 30%;
   margin: auto;
   text-align: center;
-  background-color: #d1e8e2;
+  background-color: #d9b08c00;
   border-radius: 100px;
   border: #ffcb9a;
 }
@@ -164,16 +164,13 @@ span {
 }
 
 .button {
-  background-color: #d9b08c;
-  border: none;
-  color: white;
+  background-color: #d9b08c00;
+  color: black;
   padding: 12px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 50px;
-}
-
-a {
+  border-color: black;
 }
