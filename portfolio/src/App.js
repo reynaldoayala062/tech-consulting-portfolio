@@ -93,6 +93,9 @@ function Loader() {
           <div className='loading-bar-container'>
             <a.div className='loading-bar' style={{ height: progress }}></a.div>
           </div>
+          <div class="wrapper">
+            <h1>Welcome to the future</h1>
+          </div>
         </a.div>
       )
   );
@@ -122,7 +125,7 @@ export default function App() {
             modelPath='/village.gltf'
             position={250}>
             <span>Woodlands Web </span>
-            <span>Designer</span>
+            <span>Designers</span>
           </HTMLContent>
           <HTMLContent
             domContent={domContent}

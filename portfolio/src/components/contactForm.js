@@ -19,7 +19,7 @@ export default function ContactUs() {
       <div className="contact-container">
           <div className='wrapper'>
                 <div>
-                    <h1>How can we help</h1>
+                    <span>How can we help</span>
                 </div>
                 <form onSubmit={sendEmail}>
                     <div className='contact-item'>
@@ -38,8 +38,8 @@ export default function ContactUs() {
                         <div><label>Message</label></div>
                         <div><textarea name="message"/></div>
                     </div>
-                    <div className='button'>
-                        <input type="submit" value="Send" className='button'/>
+                    <div className='button-container'>
+                        <input type='submit' value='Send' className='button'/>
                     </div>
                 </form>
             </div>

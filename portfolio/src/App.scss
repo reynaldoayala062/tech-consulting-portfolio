@@ -107,6 +107,7 @@ header {
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  flex-direction: column;
 }
 
 .loading-bar-container {
@@ -121,7 +122,7 @@ header {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background: #f3d250;
+  background: #ffffff;
 }
 
 .contact-container {
@@ -168,13 +169,51 @@ span {
 }
 
 .button {
-  background-color: #d9b08c00;
+  background-color: #ffffff;
   color: black;
   padding: 12px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 50px;
-  border-color: black;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.wrapper {
+  text-align: center;
+  h1 {
+    color: #fff;
+    font-size: 60px;
+    font-family: "ubuntu";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Candara", sans-serif;
+    background: linear-gradient(
+      to right,
+      #fcfcfc 10%,
+      #000000 50%,
+      #7e7d7d 60%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
