@@ -91,7 +91,7 @@ function Loader() {
       active && (
         <a.div className='loading' style={{ opacity }}>
           <div className='loading-bar-container'>
-            <a.div className='loading-bar' style={{ width: progress }}></a.div>
+            <a.div className='loading-bar' style={{ height: progress }}></a.div>
           </div>
         </a.div>
       )

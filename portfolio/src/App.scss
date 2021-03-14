@@ -110,14 +110,18 @@ header {
 }
 
 .loading-bar-container {
+  height: 100px;
   width: 100px;
-  height: 32px;
+  background-color: #bbb;
+  border-radius: 50%;
   background: #272727;
 }
 
 .loading-bar {
-  height: 32px;
-  background: rgb(255, 251, 0);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #f3d250;
 }
 
 .contact-container {
