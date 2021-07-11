@@ -215,25 +215,36 @@ export default function App() {
         <Suspense fallback={null}>
         <HTMLContent
             domContent={domContent}
-            bgColor='#F3D250'
-            modelPath='/village.gltf'
+            bgColor='#59b2ff'
+            modelPath='/floating.gltf'
             position={250}>
-            <span>Woodlands Web </span>
-            <span>Designers</span>
+            <span>The way to go when it</span>
+            <span>comes to tech</span>
+ 
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor='#77A6F7'
-            modelPath='/iPhone.gltf'
+            bgColor='#56d1bd'
+            modelPath='/tokyo.gltf'
             position={0}>
-            <span>Connecting you to</span>
-            <span>the world</span>
+            <div className="text-box">
+              <span>Create a brand</span>
+            </div>
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor='#FFCB9A'
-            modelPath='/gray.gltf'
+            bgColor='#282828'
+            modelPath='/iphone.gltf'
             position={-250}>
+            <div className="text-box">
+              <span>And show it to the world</span>
+            </div>
+          </HTMLContent>
+          <HTMLContent
+            domContent={domContent}
+            bgColor='#e6b64e'
+            modelPath='/village.gltf'
+            position={-500}>
             <Contact/>
           </HTMLContent>
         </Suspense>

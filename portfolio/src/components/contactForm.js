@@ -19,7 +19,7 @@ export default function ContactUs() {
       <div className="contact-container">
           <div className='wrapper'>
                 <div>
-                    <span>How can we help</span>
+                    <span>Get started today</span>
                 </div>
                 <form onSubmit={sendEmail}>
                     <div className='contact-item'>
@@ -27,12 +27,12 @@ export default function ContactUs() {
                         <div><input type="name" name="name"/></div>
                     </div>
                     <div className='contact-item'>
-                        <div><label>Email</label></div>
-                        <div><input type="email" name="email"/></div>
-                    </div>
-                    <div className='contact-item'>
                         <div><label>Phone</label></div>
                         <div><input type="phone" name="phone"/></div>
+                    </div>
+                    <div className='contact-item'>
+                        <div><label>Email</label></div>
+                        <div><input type="email" name="email"/></div>
                     </div>
                     <div className='contact-item'>
                         <div><label>Message</label></div>
